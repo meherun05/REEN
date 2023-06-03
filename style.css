@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+.text-color{color: #506a85}
+.text-color-light{color:#77899c!important;}
+.theme-bg{ background: #f2f5f7!important;}
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header-left a{
+    text-decoration: none;
+    color: #73879c;
+    margin-right: 8px;
+    font-size: 12px;
+}
+.social-link a{
+    text-decoration: none;
+    color: #73879c;
+    margin-right: 8px;
+    font-size: 12px;
+
+}
+header{
+    background: #f5f7fa;
+    height: 40px;
+    border-bottom: 1px solid #e6e9ed;
+    line-height: 35px;
+}
+
+.navbar-brand img[src*=".svg"] {
+    max-width: 100%;
+}
+.navbar-brand img{
+    width: auto;
+    height: 30px;
+}
+.menu li a{
+    font-size: 15px;
+    color: #73879c;
+    white-space: nowrap;
+    /*margin-right: 5px;*/
+}
+.search a{
+    margin-left: 200px;
+    color: #73879c;
+    font-size: 12px;
+
+}
+.carousel-item img{
+    height: 430px;
+}
+.my-caption{
+   top: 5px;
+    margin-top: 50px;
+}
+.my-caption h1{
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.my-caption p{
+    font-size: 18px;
+    color: #f5f7fa;
+}
+.clane h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.clane p{
+    font-size: 22px;
+    line-height: 150%;
+}
+.icon{
+    font-size: 65px;
+    color: #1abb9c;
+    position: relative;
+}
+.passion{
+    position: absolute;
+    left: 100px;
+}
+.passion p{
+    font-size: 15px;
+}
+.icon1{
+    font-size: 65px;
+    color: #1abb9c;
+    position: relative;
+}
+.Creativity{
+    position: absolute;
+    left: 100px;
+}
+.Creativity p{
+    font-size: 15px;
+}
+.icon2{
+    font-size: 65px;
+    color: #1abb9c;
+    position: relative;
+}
+.Quality{
+    position: absolute;
+    left: 100px;
+}
+.Quality p{
+    font-size: 15px;
+}
+.crd{
+    margin-left: 80px;
+}
+.work img{
+    height: 350px;
+    width: 545px;
+}
+.item img{
+    height: auto;
+    width: 300px;
+}
+.want p{
+    font-size: 22px;
+}
+.quote-btn{
+    width: 180px;
+    padding: 15px 26px 16px;
+    color: white!important;
+    font-size: 15px;
+    background: #1abb9c!important;
+}
+.ft-bg-color{background: #2f4052;}
+.fb-bg-color{background: #283645;}
+.txt img[src*=".svg"] {
+    max-width: 100%;
+    color: white;
+}
+.txt p{
+    font-size: 13px;
+}
+.txt i{
+    margin-right: 5px;
+}
+.txt a{
+    font-size: 13px;
+}
+.thmb img{
+    width:280px;
+    height: 80px;
+}
+.contact a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.contact p{
+    font-size: 13px;
+}
+.email-btn{
+    background:#1abb9c;
+    height: 30px;
+    width: 88px;
+    font-size: 13px;
+    border: 0;
+    position: absolute;
+    margin-top:20px;
+    bottom: 20px;
+    right: -25px;
+    color: #f5f7fa;
+
+}
+.contact input{
+    background: #4e5c6c;
+    width: 277px;
+    height: 40px;
+    font-size: 12px;
+}
